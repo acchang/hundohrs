@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+// add price and location here.
+
 const PostSchema = new mongoose.Schema({
   title: {
     type: String,
